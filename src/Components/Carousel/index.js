@@ -9,7 +9,7 @@ const index = (props) => {
       <OwlCarousel options={owlOptions}>
         {props.items.map((value) => (
           <div>
-            <img src={value.image} />
+            <img src={value.image} alt="Deneme"/>
           </div>
         ))}
       </OwlCarousel>
